@@ -1,0 +1,17 @@
+.rating {
+	text-align: center;
+	&__container {
+		width: 100%;
+	}
+	&__item {
+		display: inline-block;
+		@include bg($rating-empty);
+
+		&.rating__item-full {
+			@include bg($rating-full);
+		}
+		&.rating__item-half {
+			@include bg($rating-half);
+		}
+	}
+}

@@ -1,0 +1,128 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.title {
+	padding: 15px 20px 13px 15px;
+
+	text-transform: uppercase;
+
+	color: #333;
+	border: 1px dashed #ccc;
+	background: #fff;
+
+	font-size: em(16px);
+	margin-bottom: -1px;
+	&__more {
+		position: relative;
+		right: 10px;
+
+		float: right;
+
+		text-decoration: none;
+		text-transform: none;
+
+		color: #333;
+		border-bottom: 1px solid #c0daaf;
+
+		font-size: em(13px);
+		&:after {
+			top: 6px;
+			right: -10px;
+
+			@include bg($icon-arrow-right);
+			@include content;
+		}
+		&:hover {
+			border-bottom: 0;
+		}
+	}
+}
+
+.form {
+	&__element {
+		padding: 9px 15px;
+
+		border: 1px solid #d5a271;
+		&:focus {
+			outline: none;
+		}
+		&--search-header {
+			display: inline-block;
+
+			width: 425px;
+
+			vertical-align: middle;
+		}
+	}
+	&__submit {
+		&--search-header {
+			display: inline-block;
+
+			margin-top: -1px;
+			margin-left: -7px;
+
+			vertical-align: middle;
+
+			border: 0;
+			background-color: transparent;
+
+			@include bg($search-button);
+		}
+	}
+}
+
+.ie8 {
+	.form {
+		&__element {
+			color: #ccc;
+			&:focus {
+				color: #333;
+			}
+		}
+	}
+}
+
+.btn-download {
+	display: block;
+	&--small {
+		position: relative;
+
+		width: 77px; // -padding-left for IE
+		height: 25px;
+		padding-left: 33px;
+
+		text-align: left;
+		text-decoration: none;
+
+		color: #fff;
+		border: 1px solid #6f9952;
+		border-radius: 3px;
+		background: linear-gradient(top, #8dbc6d 0%, #569b26 100%);
+
+		font-size: em(12px);
+		line-height: 25px;
+		&:hover {
+			background: #569b26;
+		}
+		&:before {
+			top: 5px;
+			left: 10px;
+
+			@include content;
+			@include bg($icon-btn-download-small);
+		}
+	}
+}
+
+// ie8fix btn-download-small
+.ie8 {
+	.btn-download {
+		&--small {
+			background: url(../images/general/ie-images/ie8-btn-download-small.png) repeat-x;
+			&:hover {
+				background-image: none;
+				background: #569b26;
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+// Common styles of the project
+
+html,
+body {
+	height: 100%;
+
+	font-family: "Arial" sans-serif;
+	font-size: $base-font-size;
+}
+
+.page {
+	width: 1024px;
+	margin: auto;
+
+	background: #eaeae9;
+	box-shadow: 0 0 5px #d6d6d6;
+	border-left: 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+}
+
+.wrapper {
+	width: 964px;
+	margin: auto;
+}
+
+// ie8 fix
+.ie8 {
+	.wrapper {
+		width: 964px;
+	}
+}

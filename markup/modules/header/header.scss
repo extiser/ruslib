@@ -1,0 +1,46 @@
+.header {
+	padding: 12px 30px;
+
+	background: linear-gradient(top, #fdcd9a 0%, #ef802e 100%);
+	&__logo,
+	&__search,
+	&__login {
+		display: inline-block;
+
+		vertical-align: middle;
+	}
+	&__logo {
+		@include bg($logo-desktop);
+	}
+	&__search {
+		margin-left: 40px;
+	}
+	&__login {
+		position: relative;
+
+		margin-left: 30px;
+		padding-left: 44px;
+
+		font-size: em(18px);
+		&:before {
+			top: -5px;
+			left: 0;
+
+			@include bg($icon-user);
+			@include content;
+		}
+		a {
+			text-decoration: none;
+
+			color: #fff;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		span {
+			padding: 0 5px;
+
+			color: #fff;
+		}
+	}
+}

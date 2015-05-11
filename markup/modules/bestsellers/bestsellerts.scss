@@ -1,0 +1,11 @@
+.bestsellers {
+	width: 960px;
+	margin: auto;
+	padding-top: 23px;
+	.bookBlockVertical {
+		display: inline-block;
+
+		margin-right: -5px;
+		margin-bottom: -1px;
+	}
+}

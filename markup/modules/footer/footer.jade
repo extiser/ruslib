@@ -1,0 +1,18 @@
+mixin footer(data)
+	footer.footer
+		.footer__logo
+		.footer__nav
+			a(href="#" title="") Новинки
+			a(href="#" title="") Авторы
+			a(href="#" title="") Книги  А-Я
+			a(href="#" title="") Популярные
+			a(href="#" title="") Жанры
+			a(href="#" title="") Аудиокниги
+		.footer__counters
+			img(src="%=staticPrefix=%images/content/counters.png" alt="")
+		.footer__copyright  © 2003 - 2015 «Литературный мир»
+		.footer__created
+
+	//- Main scripts. You can replace it, but I recommend you to leave it here
+	script(src='%=staticPrefix=%js/main%=hash=%%=min=%.js')
+	|<!--[if lte IE 9 ]> <script src="%=staticPrefix=%js/separate-js/ie8GUIfix.js" type="text/javascript"></script><![endif]-->

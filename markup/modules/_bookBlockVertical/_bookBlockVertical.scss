@@ -1,0 +1,40 @@
+.bookBlockVertical {
+	width: 171px;
+	padding: 14px 10px 5px 10px;
+
+	text-align: center;
+
+	border: 1px dashed #ccc;
+	background: #f6f5f4;
+	&__img {
+		margin-bottom: 3px;
+	}
+	&__link {
+		display: block;
+
+		margin-top: 3px;
+
+		text-decoration: none;
+
+		color: #333;
+
+		font-size: em(15px);
+		font-weight: 700;
+		line-height: em(18px, 15px);
+	}
+	&__author {
+		padding: 5px 0;
+
+		color: #666;
+
+		font-size: em(12px);
+	}
+	&__btn {
+		margin: 5px auto;
+	}
+	&__downloaded {
+		color: #b3b2b1;
+
+		font-size: em(10px);
+	}
+}

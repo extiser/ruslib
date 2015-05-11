@@ -1,0 +1,83 @@
+.menu {
+	border-bottom: 1px solid #c0c0bf;
+	background: linear-gradient(top, #f5f5f5 0%, #e6e6e3 100%);
+	&__item {
+		position: relative;
+
+		display: inline-block;
+
+		height: 48px;
+		padding-right: 29px;
+		padding-left: 55px;
+
+		text-decoration: none;
+
+		color: #444;
+		border-right: 1px solid #c0c0bf;
+
+		font-size: em(14px);
+		line-height: 48px;
+		&:before {
+			left: 25px;
+
+			@include content;
+		}
+		&:hover {
+			background: #c0c0bf;
+		}
+		&--last-child {
+			padding-right: 32px;
+
+			border-right: 0;
+		}
+		&--main {
+			&:before {
+				top: 17px;
+
+				@include bg($icon-menu-book);
+			}
+		}
+		&--novelty {
+			&:before {
+				top: 17px;
+
+				@include bg($icon-menu-plane);
+			}
+		}
+		&--popular {
+			&:before {
+				top: 15px;
+
+				@include bg($icon-menu-star);
+			}
+		}
+		&--authors {
+			&:before {
+				top: 16px;
+
+				@include bg($icon-menu-man);
+			}
+		}
+		&--genres {
+			&:before {
+				top: 16px;
+
+				@include bg($icon-menu-list);
+			}
+		}
+		&--books-az {
+			&:before {
+				top: 17px;
+
+				@include bg($icon-menu-stack-books);
+			}
+		}
+		&--audiobooks {
+			&:before {
+				top: 16px;
+
+				@include bg($icon-menu-headphones);
+			}
+		}
+	}
+}

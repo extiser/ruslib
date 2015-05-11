@@ -1,0 +1,57 @@
+.bookBlockHorizontal {
+	width: 240px;
+	&__img {
+		display: inline-block;
+	}
+	&__content {
+		display: inline-block;
+
+		width: 186px;
+		margin-top: 1px;
+		margin-left: 10px;
+
+		vertical-align: top;
+	}
+	&__link {
+		display: block;
+
+		text-decoration: none;
+
+		color: #333;
+
+		font-size: em(14px);
+		font-weight: 700;
+		line-height: em(18px, 14px);
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&__author {
+		display: block;
+
+		margin-top: 5px;
+
+		color: #666;
+
+		font-size: em(12px);
+	}
+	&__downloaded {
+		position: relative;
+
+		display: block;
+
+		margin-top: 5px;
+		padding-left: 15px;
+
+		color: #333;
+
+		font-size: em(10px);
+		&:before {
+			top: 3px;
+			left: 0;
+
+			@include content;
+			@include bg($icon-download);
+		}
+	}
+}

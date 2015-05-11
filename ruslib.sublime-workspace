@@ -1,0 +1,1200 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"do",
+				"DownloadNewestPopular"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"lis",
+				"list-style-position"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"ge",
+				"genresListMain"
+			],
+			[
+				"inpu",
+				"inputElement"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"_bookBlockVertical"
+			],
+			[
+				"ra",
+				"rating__item"
+			],
+			[
+				"rat",
+				"rating__item"
+			],
+			[
+				"menu",
+				"menu__item"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"foo",
+				"footer-other"
+			],
+			[
+				"ca",
+				"carousel-item"
+			],
+			[
+				"conf",
+				"confirm"
+			],
+			[
+				"mag",
+				"margin"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"con",
+				"contacts__item"
+			],
+			[
+				"cli",
+				"clients"
+			],
+			[
+				"abo",
+				"about"
+			],
+			[
+				"ab",
+				"about__text--left"
+			],
+			[
+				"mna",
+				"margin-bottom"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"ad",
+				"address-list-item"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"scro",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"scr",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"sli",
+				"slider"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"mrg",
+				"margin-right"
+			],
+			[
+				"re",
+				"repeat-y"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"cal",
+				"calendar-week"
+			],
+			[
+				"calendar-we",
+				"calendar-week__day"
+			],
+			[
+				"cale",
+				"calendar-week"
+			],
+			[
+				"side",
+				"sidebar-widget"
+			],
+			[
+				"com",
+				"comments"
+			],
+			[
+				"si",
+				"similar-article"
+			],
+			[
+				"cate",
+				"category-item"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"bre",
+				"breadcrumbs__link"
+			],
+			[
+				"marign",
+				"margin-right"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"border-oc",
+				"border-color"
+			],
+			[
+				"fo",
+				"form__submit"
+			],
+			[
+				"ou",
+				"outline-color"
+			],
+			[
+				"form",
+				"form__icon"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"chi",
+				"childNodes"
+			],
+			[
+				"gal",
+				"galleryElement"
+			],
+			[
+				"подаро",
+				"подарков"
+			],
+			[
+				"df",
+				"df-link-color"
+			],
+			[
+				"df-",
+				"df-link-solid-color"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"se",
+				"service-car"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"оп",
+				"оператор"
+			],
+			[
+				"service-car__guests__",
+				"service-car__guests__list__item"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"s",
+				"service-schedule"
+			],
+			[
+				"sev",
+				"service-wedding-cake"
+			],
+			[
+				"border-bot",
+				"border-bottom-color"
+			],
+			[
+				"sc",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"hi",
+				"hidden-xs"
+			],
+			[
+				"col",
+				"col-lg-offset-1"
+			],
+			[
+				"doc",
+				"docHeight"
+			],
+			[
+				"sl",
+				"slide-line"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"fir",
+				"firm-page--pattern"
+			],
+			[
+				"fi",
+				"firm-press"
+			],
+			[
+				"f",
+				"firm-collections--pattern"
+			],
+			[
+				"cn",
+				"container-fluid"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"user",
+				"userSet"
+			],
+			[
+				"val",
+				"value	AngularJS"
+			],
+			[
+				"top",
+				"topOfWindow"
+			],
+			[
+				"map",
+				"mapcode"
+			],
+			[
+				"cla",
+				"classM"
+			],
+			[
+				"use",
+				"userText"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"revie",
+				"reviewsUser"
+			],
+			[
+				"rev",
+				"reviewsList"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"tari",
+				"tarif__item"
+			],
+			[
+				"border-bt",
+				"border-bottom-color"
+			],
+			[
+				"ta",
+				"tarif"
+			],
+			[
+				"tar",
+				"tarifController"
+			],
+			[
+				"slide",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"works",
+				"works"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"ha",
+				"hasClass	.hasClass()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"po",
+				"portfolio__works"
+			],
+			[
+				"pro",
+				"portfolio"
+			],
+			[
+				"ho",
+				"howwework"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "markup/modules/footer/footer.scss",
+			"settings":
+			{
+				"buffer_size": 777,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "Package Control: instal",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Git/ruslib/markup",
+		"/E/Git/ruslib/markup/modules",
+		"/E/Git/ruslib/markup/modules/footer",
+		"/E/Git/ruslib/markup/pages",
+		"/E/Git/ruslib/markup/static",
+		"/E/Git/ruslib/markup/static/scss"
+	],
+	"file_history":
+	[
+		"/E/Git/ruslib/markup/static/scss/GUI.scss",
+		"/E/Git/ruslib/markup/modules/genresList/genresListMain.jade",
+		"/E/Git/ruslib/markup/modules/bestsellers/bestsellers.jade",
+		"/E/Git/ruslib/markup/modules/bestsellers/bestsellerts.scss",
+		"/E/Git/ruslib/markup/modules/DownloadNewestPopular/DownloadNewestPopular.scss",
+		"/E/Git/ruslib/markup/modules/footer/footer.jade",
+		"/E/Git/ruslib/markup/modules/footer/footer.scss",
+		"/E/Git/ruslib/markup/modules/DownloadNewestPopular/DownloadNewestPopular.jade",
+		"/E/Git/ruslib/markup/modules/_bookBlockHorizontal/_bookBlockHorizontal.scss",
+		"/E/Git/ruslib/markup/pages/index.jade",
+		"/E/Git/ruslib/markup/modules/_bookBlockHorizontal/_bookBlockHorizontal.jade",
+		"/E/Git/ruslib/markup/modules/genresList/genresListSidebar.jade",
+		"/E/Git/ruslib/markup/modules/genresList/genresList.scss",
+		"/E/Git/ruslib/markup/modules/genresList/data/data.js",
+		"/E/Git/ruslib/markup/modules/genresList/genresList",
+		"/E/Git/ruslib/markup/static/js/separate-js/ie8GUIfix.js",
+		"/E/Git/ruslib/markup/modules/head/head.jade",
+		"/E/Git/ruslib/markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
+		"/E/Git/ruslib/markup/modules/_bookBlockVertical/_bookBlockVertical.jade",
+		"/E/Git/ruslib/markup/static/scss/normalize.scss",
+		"/E/Git/bur/markup/modules/slider/slider.jade",
+		"/E/Git/ruslib/markup/modules/_rating/_rating.scss",
+		"/E/Git/ruslib/markup/modules/_rating/_ratingBig.jade",
+		"/E/Git/ruslib/markup/modules/menu/menu.jade",
+		"/E/Git/ruslib/markup/modules/menu/menu.scss",
+		"/E/Git/ruslib/markup/modules/menu/ie/ie8.scss",
+		"/E/Git/ruslib/markup/modules/menu/menu.js",
+		"/E/Git/ruslib/markup/static/scss/common.scss",
+		"/E/Git/ruslib/markup/modules/header/header.scss",
+		"/E/Git/ruslib/markup/modules/header/ie/ie8.scss",
+		"/E/Git/ruslib/markup/modules/header/header.jade",
+		"/E/Git/ruslib/markup/static/scss/vars.scss",
+		"/E/Git/ruslib/markup/static/scss/mixins.scss",
+		"/E/Git/bur/markup/static/scss/mixins.scss",
+		"/E/Git/ruslib/markup/modules/head/data/data.js",
+		"/E/Git/ruslib/tars-config.js",
+		"/E/Git/eagleeye/layout/index.jade",
+		"/E/Git/eagleeye/layout/static/css/style.css",
+		"/E/Git/eagleeye/layout/static/css/cover.css",
+		"/E/Git/eagleeye/layout/static/css/booking.css",
+		"/E/Git/eagleeye/layout/static/css/carousel.css",
+		"/E/Git/eagleeye/layout/carousel.jade",
+		"/E/tempLearning/index.html",
+		"/E/tempLearning/js/script.js",
+		"/E/Git/eagleeye/.gitignore",
+		"/E/Git/eagleeye/layout/static/js/script.js",
+		"/E/Git/cluev-soulmates/dev/static/js/main.js",
+		"/E/Git/bur/markup/modules/slider/slider.js",
+		"/E/Git/eagleeye/layout/static/css/carousel.sass",
+		"/E/Git/eagleeye/layout/static/css/style.sass",
+		"/E/Git/bur/markup/modules/footer/footer.jade",
+		"/E/Git/bur/markup/modules/header/header.scss",
+		"/C/Dropbox/Sites/sovets_woman/stylesheets/style.css",
+		"/E/Git/bur/markup/static/scss/common.scss",
+		"/E/Git/bur/markup/modules/about/about.scss",
+		"/E/Git/bur/markup/modules/about/about.jade",
+		"/E/Git/bur/markup/modules/clients/clients.jade",
+		"/E/Git/bur/markup/modules/clients/clients.scss",
+		"/E/Git/resume/markup/static/scss/common.scss",
+		"/E/Git/bur/markup/modules/address/address.jade",
+		"/E/Git/bur/markup/modules/contacts/contacts.jade",
+		"/E/Git/bur/markup/modules/advantages/advantages.scss",
+		"/E/Git/bur/markup/modules/slider/slider.scss",
+		"/E/Git/bur/markup/modules/address/ie/ie8.scss",
+		"/E/Git/bur/tars-config.js",
+		"/E/Git/bur/tars/user-tasks/s3-upload.js",
+		"/C/Users/Руслан/Desktop/example-task.js",
+		"/E/Git/bur/markup/modules/clients/ie/ie8.scss",
+		"/E/Git/bur/markup/modules/clients/clients.js",
+		"/E/Git/bur/markup/modules/clients/ie",
+		"/E/Git/bur/markup/modules/clients/ie/ie8",
+		"/E/Git/bur/markup/pages/index.jade",
+		"/E/Git/bur/markup/modules/footer/footer.scss",
+		"/E/Git/bur/markup/modules/contacts/contacts.scss",
+		"/E/Git/bur/markup/static/scss/GUI.scss",
+		"/E/Git/bur/markup/modules/header/header.js",
+		"/E/Git/bur/markup/modules/header/header.jade",
+		"/E/Git/bur/markup/modules/partner/partner.scss",
+		"/E/Git/bur/markup/modules/partner/ie/ie8.scss",
+		"/E/Git/bur/markup/modules/header/ie/ie8.scss",
+		"/E/Git/bur/markup/modules/address/address.scss",
+		"/E/Git/bur/markup/modules/advantages/ie/ie8.scss",
+		"/E/Git/bur/markup/modules/advantages/advantages.jade",
+		"/E/Git/bur/markup/modules/partner/partner.jade",
+		"/E/Git/cluev-soulmates/markup/modules/index/script.js",
+		"/E/Git/bur/tars/tasks/images/minify-raster-img.js",
+		"/E/Git/bur/markup/static/scss/fonts.scss",
+		"/E/Git/wspeaks/markup/modules/similar-article/similar-article.jade",
+		"/E/Git/bur/markup/static/scss/vars.scss",
+		"/E/Git/wspeaks/markup/static/scss/mixins.scss",
+		"/E/Git/wspeaks/markup/static/scss/common.scss",
+		"/E/Git/shtukaturkapro/dev/sass/partials/header.scss",
+		"/E/Git/bur/markup/static/scss/normalize.scss",
+		"/E/Git/bur/dev/static/js/main.js",
+		"/E/Git/bur/markup/static/scss/foundation.scss",
+		"/E/Git/bur/package.json",
+		"/E/Git/bur/markup/modules/header/data/data.js",
+		"/E/Git/bur/tars/user-tasks/example-task.js",
+		"/E/Git/bur/user-package.json",
+		"/E/Git/bur/gulpfile.js",
+		"/E/Git/bur/markup/static/scss/foundation/_settings.scss",
+		"/E/Git/bur/markup/static/scss/foundation/_functions.scss",
+		"/E/Git/akado/markup/modules/_template/_template.jade",
+		"/E/_template/_template.js",
+		"/E/_template/data/data.js",
+		"/E/Git/wspeaks/markup/modules/calendar/calendar.scss",
+		"/E/Git/wspeaks/markup/modules/comments/comments.scss",
+		"/E/Git/wspeaks/markup/modules/similar-article/similar-article.scss",
+		"/E/Git/wspeaks/markup/modules/single-article/single-article.scss",
+		"/E/Git/wspeaks/markup/modules/category-item/category-item.scss",
+		"/E/Git/wspeaks/markup/modules/breadcrumbs/breadcrumbs.scss",
+		"/E/Git/wspeaks/markup/modules/sidebar-nav/sidebar-nav.scss",
+		"/E/Git/wspeaks/markup/modules/sidebar-widget/sidebar-widget.scss",
+		"/E/Git/wspeaks/markup/modules/big-article/big-article.scss",
+		"/E/Git/wspeaks/markup/modules/small-article/small-article.scss",
+		"/E/Git/wspeaks/markup/modules/footer/footer.scss",
+		"/E/Git/wspeaks/markup/static/scss/GUI.scss",
+		"/E/Git/wspeaks/markup/modules/nav-menu/nav-menu.scss",
+		"/E/Git/wspeaks/markup/modules/header/header.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_filter.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_about.scss",
+		"/E/Git/wspeaks/markup/modules/calendar/calendar.jade",
+		"/E/Git/wspeaks/markup/pages/calendar.jade",
+		"/E/Git/wspeaks/markup/pages/single.jade",
+		"/E/Git/wspeaks/markup/modules/sidebar-widget/sidebar-widget.jade",
+		"/E/Git/wspeaks/markup/pages/index.jade",
+		"/E/Git/wspeaks/markup/pages/category.jade",
+		"/E/Git/wspeaks/markup/modules/head/head.jade"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"1",
+			"ul",
+			".hide",
+			"#SkypeButton_Call_vageik_1",
+			"__block",
+			"row",
+			".row",
+			"unisans",
+			".small-article",
+			"a(href=\"#\" ",
+			"ul",
+			"search",
+			"onThumbnailsClick",
+			"pswp",
+			"pswp__item",
+			"openPhotoSwipe",
+			"Thumbnail",
+			"parse",
+			"parseThumbnailElements",
+			".col-lg-11.col-xs-12.col-md-12",
+			".col-lg-1.hidden-xs",
+			".col-lg-1.hidden-xs.hidden-md",
+			".col-lg-11.col-lg-offset-1.col-xs-12.col-md-12",
+			".col-xs-12",
+			".col-md",
+			".col-xs-12",
+			".visible-xs-block.visible-md-block",
+			".visible-xs-block",
+			".title",
+			"8",
+			"send",
+			"$blue",
+			"-webkit-margin-before: 1em;",
+			"HelveticaNeueCyrBold",
+			"../static/images/",
+			"&--individualcreate",
+			"&--momentglory",
+			"&--threecolors",
+			"&--theone",
+			"&--bigdisplay",
+			"../images/",
+			".art-menu",
+			".art-menu ul li",
+			"parent",
+			"paren",
+			"content-row-l",
+			"content-row-f",
+			"content-row2",
+			"content-row1",
+			".art-menu a",
+			"\"",
+			"$",
+			"slides",
+			"'",
+			"brow",
+			"localhost",
+			"art-postheader",
+			"jquery",
+			"migrate",
+			"jquery",
+			".show_me_the_map",
+			"jquery",
+			"uslugi3",
+			"top-orange",
+			"sidebar",
+			"margin-top: -37px;",
+			"sidebar-left",
+			".left-sidebar",
+			"art-sheet-body",
+			".subcategory",
+			"art-postheader",
+			".contact-info-footer a",
+			".art-footer .art-nav a",
+			".art-menu .art-menu-li-separator",
+			".art-menu a .t, .art-menu ul a, .art-menu a, .art-menu a:link, .art-menu a:visited, .art-menu a:hover",
+			"../images",
+			"inner-entry",
+			"portfolio-sort-container",
+			"art",
+			"font-size: 18px;",
+			"@media",
+			".logo",
+			"юдщпщ",
+			".header",
+			"header",
+			"h1",
+			"title",
+			"post",
+			"eight",
+			"thumbElements",
+			"split",
+			"figure",
+			"gallerySelector",
+			"wrapper",
+			"append",
+			"Наши партнёры: ",
+			"full-catalog",
+			"loop",
+			"products",
+			"bread",
+			"Велоакс",
+			"Вело",
+			"add_submenu_page",
+			"Классы",
+			"as_store_optoins_subpage_product_classes",
+			"Велоаксессуары",
+			"Велосипеды",
+			"Велоаксессуары",
+			"menu",
+			"bcn",
+			"<h1>",
+			"paid",
+			"-webkit-appearance: textfield;",
+			".form__element",
+			".form",
+			"form",
+			"acccentre.ru",
+			"acccentre.iqdemo.ru",
+			"strong",
+			"footer",
+			"firm-card-tabs-photo-album",
+			"http://aversprof.ru/katalog/uniforma-i-speczodezhda/poshiv-rabochego-kostyuma.html",
+			"$password",
+			"slides_container",
+			"sliderBlock",
+			".slide",
+			".slides",
+			"iq.acccentre.loc"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"#SkypeButton_Call_redvoronik_1",
+			"__item",
+			"../fonts/unisans",
+			".similar-article",
+			"li.sidebar-nav__item\n				a(href=\"#\" ",
+			".col-xs-12.col-md-12.col-lg-11",
+			".hidden-xs.col-lg-1",
+			".hidden-xs.hidden-md.col-lg-1",
+			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
+			".col-xs-12.col-md-12",
+			".col-lg",
+			"",
+			".visible-xs-block.visible-md-block",
+			".title.visible-xs-block",
+			"#70cfea",
+			"angular",
+			"SegoeUILight",
+			"../images/",
+			"&--individualCreate",
+			"&--momentGlory",
+			"&--threeColors",
+			"&--theOne",
+			"&--bigDisplay",
+			"../static/images/",
+			"contentRowL",
+			"contentRowF",
+			"content-row-l",
+			"content-row-f",
+			"'",
+			"jQuery",
+			"slider",
+			"\"",
+			"uslugi",
+			"/images",
+			"CalendarByWeek",
+			"www.acccentre.ru",
+			"acccentre.ru",
+			"firm-card-tabs-video-album",
+			"acccentre.iqdemo.ru",
+			"javascript:void(0)",
+			".slide__content__title",
+			"",
+			"/images/",
+			"water",
+			"cr_stone_kg",
+			"cr_stone_m",
+			"sand_m",
+			"sand_kg",
+			"sand_m",
+			"cement",
+			"bags",
+			"plaster_kg",
+			"bags",
+			"plaster_kg",
+			"",
+			"option",
+			"",
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need",
+			"b-in-photo",
+			"b-why",
+			"03dbaf",
+			"01a987",
+			"03bd97",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n					            	<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"col-xs",
+			"",
+			"class=\"save_redact\"",
+			"class=\"redacting\"",
+			"rows=\"5\"",
+			"parking",
+			"option",
+			"",
+			"</p>",
+			"<p>",
+			".footer",
+			"",
+			"table-finance-counters",
+			"btn",
+			"table__row table__row--tbody table-stat__row--tbody",
+			"table__row--cell table-stat__row--cell",
+			"table__row--cell",
+			" cell",
+			"images/",
+			"font/",
+			"/font/",
+			"/images/",
+			"images/",
+			"font/",
+			" {",
+			"/font/",
+			"/images/",
+			"images",
+			"font",
+			"url(PIE.htc);",
+			"/images/",
+			"/font/",
+			"images",
+			"font",
+			"",
+			"/images/",
+			"/font/",
+			"сервиса"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "markup/modules/footer/footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ruslib.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

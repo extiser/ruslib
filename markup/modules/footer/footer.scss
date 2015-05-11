@@ -1,0 +1,58 @@
+.footer {
+	margin-top: 53px;
+	padding: 30px;
+	padding-bottom: 20px;
+
+	border-top: 2px solid #c2c2c1;
+	background: #e2e2e1;
+	&__logo,
+	&__nav,
+	&__counters,
+	&__copyright,
+	&__created {
+		display: inline-block;
+
+		vertical-align: middle;
+	}
+	&__logo {
+		@include bg($logo-desktop-black);
+	}
+	&__nav {
+		width: 360px;
+		margin-right: 40px;
+		margin-left: 90px;
+		a {
+			display: inline-block;
+
+			width: 120px;
+			margin: 3px 0;
+
+			vertical-align: top;
+			text-decoration: none;
+
+			color: #444;
+
+			font-size: em(14px);
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__counters {
+		width: 295px;
+	}
+	&__copyright {
+		margin-top: 20px;
+
+		color: #444;
+
+		font-size: em(12px);
+	}
+	&__created {
+		float: right;
+
+		margin-top: 10px;
+
+		@include bg($sigma-create);
+	}
+}

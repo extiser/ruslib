@@ -1,0 +1,26 @@
+mixin DownloadNewestPopular()
+	section.DownloadNewestPopular
+		.DownloadNewestPopular__block.DownloadNewestPopular__block--downloaded
+			.title Сейчас скачивают
+			.DownloadNewestPopular__list
+				- for(var i = 0; i < 5; i++) {
+					+_bookBlockHorizontal()
+				- }
+				.DownloadNewestPopular__more
+					a(href="#" title="") Смотреть еще
+		.DownloadNewestPopular__block.DownloadNewestPopular__block--newest
+			.title Новинки
+			.DownloadNewestPopular__list
+				- for(var i = 0; i < 5; i++) {
+					+_bookBlockHorizontal()
+				- }
+				.DownloadNewestPopular__more
+					a(href="#" title="") Смотреть еще
+		.DownloadNewestPopular__block.DownloadNewestPopular__block--popular
+			.title Популярное
+			.DownloadNewestPopular__list
+				- for(var i = 0; i < 5; i++) {
+					+_bookBlockHorizontal()
+				- }
+				.DownloadNewestPopular__more
+					a(href="#" title="") Смотреть еще
