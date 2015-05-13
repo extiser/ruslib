@@ -1,0 +1,7 @@
+mixin catalogList()
+	section.catalog-list
+		h1.title.catalog-list__title Поэзия, поэма, драматургия
+		- for(var i = 0; i < 24; ++i) {
+			+_bookBlockVertical('bookBlockVertical--catalog-list')
+		- }
+		a(href="#" title="").show-more.catalog-list__show-more Показать еще

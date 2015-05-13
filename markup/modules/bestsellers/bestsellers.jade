@@ -3,5 +3,5 @@ mixin bestsellers()
 		.title Бестселлеры прошлой недели
 			a(href="#" title="").title__more Смотреть еще
 		- for(var i = 0; i < 10; ++i) {
-			+_bookBlockVertical
+			+_bookBlockVertical('bookBlockVertical--bestsellers')
 		- }

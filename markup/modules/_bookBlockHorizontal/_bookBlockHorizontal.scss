@@ -1,5 +1,9 @@
 .bookBlockHorizontal {
 	width: 240px;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+
+	border-bottom: 1px solid #ddd;
 	&__img {
 		display: inline-block;
 	}

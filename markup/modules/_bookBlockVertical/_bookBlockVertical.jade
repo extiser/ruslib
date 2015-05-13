@@ -1,5 +1,5 @@
-mixin _bookBlockVertical()
-	.bookBlockVertical
+mixin _bookBlockVertical(data)
+	.bookBlockVertical(class="#{data}")
 		img(src="%=staticPrefix=%images/content/_bookBlockVertical-img.jpg" alt="").bookBlockVertical__img
 		+_ratingBig()
 		a(href="#" title="").bookBlockVertical__link Гибкий график катастроф

@@ -15,10 +15,6 @@
 		}
 		.bookBlockHorizontal {
 			margin: auto;
-			margin-bottom: 12px;
-			padding-bottom: 12px;
-
-			border-bottom: 1px solid #e6e5e4;
 			&:first-child {
 				margin-top: 25px;
 			}
@@ -44,8 +40,8 @@
 				top: 6px;
 				right: -10px;
 
-				@include bg($icon-arrow-right);
 				@include content;
+				@include bg($icon-arrow-right);
 			}
 			&:hover {
 				border-bottom: 0;

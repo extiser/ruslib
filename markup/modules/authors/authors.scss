@@ -1,0 +1,61 @@
+.authors {
+	&__search,
+	&__list {
+		padding: 20px;
+
+		border: 1px dashed #ccc;
+		background: #f6f5f4;
+	}
+	&__search {
+		position: relative;
+
+		margin-bottom: -1px;
+		&:before {
+			top: 32px;
+			left: 32px;
+
+			@include content;
+			@include bg($icon-search);
+		}
+	}
+	&__a-z {
+		margin-top: 15px;
+		margin-left: 3px;
+		a {
+			display: inline-block;
+
+			margin-right: 7px;
+
+			color: #ef8230;
+
+			font-size: em(22px);
+		}
+	}
+	&__list-item {
+		position: relative;
+
+		margin-bottom: 15px;
+		padding-left: 41px;
+
+		list-style: none;
+		list-style-position: inside;
+		&:before {
+			left: 0;
+
+			@include bg($icon-pen);
+			@include content;
+		}
+		a {
+			text-decoration: none;
+
+			color: #333;
+			border-bottom: 1px solid #bcd5a9;
+
+			font-size: em(14px);
+			font-weight: 700;
+			&:hover {
+				border-bottom: none;
+			}
+		}
+	}
+}

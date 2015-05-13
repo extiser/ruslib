@@ -2,18 +2,8 @@ mixin genresListMain(data)
 	section.genresListMain
 		.title Жанры
 		.genresListMain__columns
-			ul.genresListMain__column
-				- for(var i = 0; i < 7; i++) {
-					li.genresListMain__item
-						a(href="#" title="") #{data[i]}
-				- }
-			ul.genresListMain__column
-				- for(var i = 7; i < 14; i++) {
-					li.genresListMain__item
-						a(href="#" title="") #{data[i]}
-				- }
-			ul.genresListMain__column
-				- for(var i = 14; i < 21; i++) {
+			ul.genresListMain__list
+				- for(var i = 0; i < data.length; i++) {
 					li.genresListMain__item
 						a(href="#" title="") #{data[i]}
 				- }

@@ -1,11 +1,21 @@
 .bookBlockVertical {
-	width: 171px;
+	display: inline-block;
+	vertical-align: top;
+
+	margin-right: -5px;
+	margin-bottom: -1px;
 	padding: 14px 10px 5px 10px;
 
 	text-align: center;
 
 	border: 1px dashed #ccc;
 	background: #f6f5f4;
+	&--bestsellers {
+		width: 171px;
+	}
+	&--catalog-list {
+		width: 157px;
+	}
 	&__img {
 		margin-bottom: 3px;
 	}
@@ -21,6 +31,9 @@
 		font-size: em(15px);
 		font-weight: 700;
 		line-height: em(18px, 15px);
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 	&__author {
 		padding: 5px 0;

@@ -1,0 +1,44 @@
+mixin authors()
+	section.authors
+		h1.title.authors__title Авторы
+		.authors__search
+			form(method="" action="").form
+				input(type="search" placeholder="Хемингуэй Эрнест" value="").form__element.form__element--search-authors
+				input(type="submit" value="Найти").form__submit.form__submit--search-authors
+			.authors__a-z
+				a(href="#" title="") А
+				a(href="#" title="") Б
+				a(href="#" title="") В
+				a(href="#" title="") Г
+				a(href="#" title="") Д
+				a(href="#" title="") Е
+				a(href="#" title="") Ж
+				a(href="#" title="") З
+				a(href="#" title="") И
+				a(href="#" title="") Й
+				a(href="#" title="") К
+				a(href="#" title="") Л
+				a(href="#" title="") М
+				a(href="#" title="") Н
+				a(href="#" title="") О
+				a(href="#" title="") П
+				a(href="#" title="") Р
+				a(href="#" title="") С
+				a(href="#" title="") Т
+				a(href="#" title="") У
+				a(href="#" title="") Ф
+				a(href="#" title="") Х
+				a(href="#" title="") Ц
+				a(href="#" title="") Ч
+				a(href="#" title="") Ш
+				a(href="#" title="") Щ
+				a(href="#" title="") Э
+				a(href="#" title="") Ю
+				a(href="#" title="") Я
+		.authors__list
+			ul.authors__list-container
+				- for(var i = 0; i < 50; i++) {
+					li.authors__list-item
+						a(href="#" title="") Давыдов Илья
+				- }
+		a(href="#" title="").show-more Показать еще

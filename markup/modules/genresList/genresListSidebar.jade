@@ -1,0 +1,8 @@
+mixin genresListSidebar(data)
+	section.genresListSidebar
+		.genresListSidebar__title Жанры
+		ul.genresListSidebar__list
+			- for(var i = 0; i < data.length; i++) {
+				li.genresListSidebar__item
+					a(href="#" title="") #{data[i]}
+			- }

@@ -1,0 +1,61 @@
+.format {
+	border: 1px dashed #ccc;
+	background: #fff;
+	&__title {
+		margin-bottom: 10px;
+
+		text-align: center;
+		text-transform: uppercase;
+
+		color: #666;
+
+		font-size: em(14px);
+	}
+}
+
+.books-format {
+	padding-top: 24px;
+	&__list {
+		width: 196px;
+		margin: auto;
+		padding-bottom: 15px;
+
+		border-bottom: 1px dashed #ccc;
+	}
+	&__item {
+		position: relative;
+
+		display: inline-block;
+
+		width: 35px;
+		margin-left: 10px;
+		padding-left: 15px;
+
+		list-style-position: inside;
+
+		text-transform: uppercase;
+
+		color: #333;
+
+		font-size: em(12px);
+		&:before {
+			top: 3px;
+			left: 0;
+
+			@include bg($icon-check);
+			@include content;
+		}
+	}
+}
+
+.support-devices {
+	padding-top: 24px;
+	padding-bottom: 15px;
+	&__item {
+		width: 197px;
+		height: 85px;
+		margin-left: 5px;
+
+		background: url(../images/general/support-devices.png) no-repeat center center;
+	}
+}

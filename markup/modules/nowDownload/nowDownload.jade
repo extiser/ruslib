@@ -1,0 +1,6 @@
+mixin nowDownload()
+	section.now-download
+		.now-download__title Сейчас скачивают
+		- for(var i = 0; i < 9; i++) {
+			+_bookBlockHorizontal()
+		- }

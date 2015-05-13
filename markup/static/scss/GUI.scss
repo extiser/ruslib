@@ -2,8 +2,10 @@
 // For example, styles of the links, buttons and so on.
 
 .title {
+	margin-bottom: -1px;
 	padding: 15px 20px 13px 15px;
 
+	text-align: left;
 	text-transform: uppercase;
 
 	color: #333;
@@ -11,7 +13,7 @@
 	background: #fff;
 
 	font-size: em(16px);
-	margin-bottom: -1px;
+	font-weight: normal;
 	&__more {
 		position: relative;
 		right: 10px;
@@ -38,6 +40,41 @@
 	}
 }
 
+.show-more {
+	position: relative;
+	top: 40px;
+
+	display: block;
+
+	width: 263px;
+	height: 42px;
+	margin: auto;
+	margin-bottom: 40px;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: #535353;
+	border: 1px solid #dbd9d8;
+	border-radius: 3px;
+	background: linear-gradient(top, #e8e8e7 0%, #cececd 100%);
+	box-shadow: inset 0 1px #fff;
+
+	font-size: em(14px);
+	line-height: 42px;
+	&:hover {
+		background: #cececd;
+		box-shadow: none;
+	}
+	&:before {
+		top: 16px;
+		right: 72px;
+
+		@include bg($icon-double-arrow-down);
+		@include content;
+	}
+}
+
 .form {
 	&__element {
 		padding: 9px 15px;
@@ -53,8 +90,29 @@
 
 			vertical-align: middle;
 		}
+		&--search-authors {
+			display: inline-block;
+
+			width: 535px;
+			padding-left: 35px;
+
+			border: 1px solid #d1d0d0;
+		}
 	}
 	&__submit {
+		&--search-authors {
+			top: 0;
+
+			display: inline-block;
+
+			width: 74px;
+			height: 38px;
+			margin: 0;
+
+			line-height: 38px;
+
+			@extend .show-more;
+		}
 		&--search-header {
 			display: inline-block;
 
@@ -120,8 +178,8 @@
 		&--small {
 			background: url(../images/general/ie-images/ie8-btn-download-small.png) repeat-x;
 			&:hover {
-				background-image: none;
 				background: #569b26;
+				background-image: none;
 			}
 		}
 	}

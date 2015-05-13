@@ -12,10 +12,10 @@ body {
 	width: 1024px;
 	margin: auto;
 
+	border-right: 1px solid #d6d6d6;
+	border-left: 1px solid #d6d6d6;
 	background: #eaeae9;
 	box-shadow: 0 0 5px #d6d6d6;
-	border-left: 1px solid #d6d6d6;
-	border-right: 1px solid #d6d6d6;
 }
 
 .wrapper {
@@ -23,9 +23,12 @@ body {
 	margin: auto;
 }
 
-// ie8 fix
-.ie8 {
-	.wrapper {
-		width: 964px;
-	}
+.main {
+	display: inline-block;
+
+	width: 712px;
+	margin-right: 25px;
+	margin-left: 30px;
+
+	vertical-align: top;
 }

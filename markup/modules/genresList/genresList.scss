@@ -8,22 +8,20 @@
 		border: 1px dashed #ccc;
 		background: #f6f5f4;
 	}
-	&__column {
+	&__item {
+		position: relative;
+
 		display: inline-block;
 
 		width: 220px;
-		margin-right: 82px;
+		margin-right: 58px;
+		margin-bottom: 10px;
+		padding-left: 25px;
 
 		list-style: none;
 		list-style-position: inside;
 
 		vertical-align: top;
-	}
-	&__item {
-		position: relative;
-
-		margin-bottom: 10px;
-		padding-left: 25px;
 		&:before {
 			top: 4px;
 			left: 0;
@@ -40,6 +38,88 @@
 			font-size: em(14px);
 			&:hover {
 				border-bottom: 0;
+			}
+		}
+	}
+}
+
+.genresListSidebar {
+	margin-top: 30px;
+	&__title {
+		margin-bottom: 15px;
+
+		text-transform: uppercase;
+
+		color: #333;
+
+		font-size: em(16px);
+	}
+	&__item {
+		position: relative;
+
+		padding-left: 20px;
+
+		list-style: none;
+		list-style-position: inside;
+
+		border-top: 1px solid #ddd;
+		&:before {
+			top: 11px;
+			left: 8px;
+
+			@include content;
+			@include bg($icon-arrow-right-orange);
+		}
+		&:hover {
+			border-top-color: transparent;
+			background: #ff9f4d;
+			a {
+				color: #fff;
+			}
+			&:before {
+				top: 0;
+				left: -7px;
+
+				width: 0;
+				height: 0;
+
+				border-top: 15px solid transparent;
+				border-right: 7px solid #ff9f4d;
+				border-bottom: 15px solid transparent;
+				background: none;
+
+				@include content;
+			}
+		}
+		a {
+			display: block;
+
+			text-decoration: none;
+
+			color: #333;
+
+			font-size: em(14px);
+			line-height: 30px;
+		}
+		&--active {
+			border-top-color: transparent;
+			background: #ff9f4d;
+			a {
+				color: #fff;
+			}
+			&:before {
+				top: 0;
+				left: -7px;
+
+				width: 0;
+				height: 0;
+
+				border-top: 15px solid transparent;
+				border-right: 7px solid #ff9f4d;
+				border-bottom: 15px solid transparent;
+				background: none;
+
+				@include content;
 			}
 		}
 	}
