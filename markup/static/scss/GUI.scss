@@ -172,6 +172,16 @@
 	}
 }
 
+// list a-z
+.authors-a-z {
+	a {
+		display: inline-block;
+		margin-right: 7px;
+		color: #ef8230;
+		font-size: em(22px);
+	}
+}
+
 // ie8fix btn-download-small
 .ie8 {
 	.btn-download {

@@ -363,7 +363,6 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
       background-position: -187px -31px;
       width: 4px;
       height: 7px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat;
       position: absolute;
       display: block;
@@ -399,7 +398,6 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
     background-position: -57px -152px;
     width: 10px;
     height: 11px;
-    background-size: 193px, 182px;
     background-repeat: no-repeat;
     position: absolute;
     display: block;
@@ -437,7 +435,6 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   background-position: 0px -114px;
   width: 46px;
   height: 38px;
-  background-size: 193px, 182px;
   background-repeat: no-repeat; }
 
 .ie8 .form__element {
@@ -473,7 +470,6 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
       background-position: -12px -166px;
       width: 13px;
       height: 14px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
 
 .authors-a-z a {
@@ -512,6 +508,156 @@ html, body {
   margin-left: 30px;
   vertical-align: top; }
 
+.DownloadNewestPopular {
+  width: 960px;
+  margin: auto;
+  padding-top: 29px; }
+  .DownloadNewestPopular__block {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    background: #f6f5f4; }
+    .DownloadNewestPopular__block--newest {
+      margin: 0 25px; }
+    .DownloadNewestPopular__block .bookBlockHorizontal {
+      margin: auto; }
+      .DownloadNewestPopular__block .bookBlockHorizontal:first-child {
+        margin-top: 25px; }
+  .DownloadNewestPopular__list {
+    border: 1px dashed #ccc; }
+  .DownloadNewestPopular__more {
+    width: 240px;
+    margin: auto;
+    padding-bottom: 12px; }
+    .DownloadNewestPopular__more a {
+      position: relative;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #bcd5a9;
+      font-size: 0.8125em; }
+      .DownloadNewestPopular__more a:after {
+        top: 6px;
+        right: -10px;
+        position: absolute;
+        display: block;
+        content: "";
+        background-image: url(../images/png-sprite/96dpi/sprite.png);
+        background-position: -187px -31px;
+        width: 4px;
+        height: 7px;
+        background-repeat: no-repeat; }
+      .DownloadNewestPopular__more a:hover {
+        border-bottom: 0; }
+
+.bookBlockHorizontal {
+  width: 240px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd; }
+  .bookBlockHorizontal__img {
+    display: inline-block;
+    width: 39px;
+    height: auto; }
+  .bookBlockHorizontal__content {
+    display: inline-block;
+    width: 186px;
+    margin-top: 1px;
+    margin-left: 10px;
+    vertical-align: top; }
+  .bookBlockHorizontal__link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.875em;
+    font-weight: 700;
+    line-height: 1.28571em; }
+    .bookBlockHorizontal__link:hover {
+      text-decoration: underline; }
+  .bookBlockHorizontal__author {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 0.75em; }
+  .bookBlockHorizontal__downloaded {
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    padding-left: 15px;
+    color: #333;
+    font-size: 0.625em; }
+    .bookBlockHorizontal__downloaded:before {
+      top: 3px;
+      left: 0;
+      background-image: url(../images/png-sprite/96dpi/sprite.png);
+      background-position: -78px -137px;
+      width: 11px;
+      height: 9px;
+      background-repeat: no-repeat;
+      position: absolute;
+      display: block;
+      content: ""; }
+
+.bookBlockVertical {
+  display: inline-block;
+  margin-right: -5px;
+  margin-bottom: -1px;
+  padding: 14px 10px 5px 10px;
+  text-align: center;
+  vertical-align: top;
+  border: 1px dashed #ccc;
+  background: #f6f5f4; }
+  .bookBlockVertical--bestsellers {
+    width: 171px; }
+  .bookBlockVertical--catalog-list {
+    width: 157px; }
+  .bookBlockVertical__img {
+    width: 97px;
+    height: auto;
+    margin-bottom: 3px; }
+  .bookBlockVertical__link {
+    display: block;
+    margin-top: 3px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9375em;
+    font-weight: 700;
+    line-height: 1.2em; }
+    .bookBlockVertical__link:hover {
+      text-decoration: underline; }
+  .bookBlockVertical__author {
+    padding: 5px 0;
+    color: #666;
+    font-size: 0.75em; }
+  .bookBlockVertical__btn {
+    margin: 5px auto; }
+  .bookBlockVertical__downloaded {
+    color: #b3b2b1;
+    font-size: 0.625em; }
+
+.rating {
+  text-align: center; }
+  .rating__container {
+    width: 100%; }
+  .rating__item {
+    display: inline-block;
+    background-image: url(../images/png-sprite/96dpi/sprite.png);
+    background-position: -14px -152px;
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat; }
+    .rating__item.rating__item-full {
+      background-image: url(../images/png-sprite/96dpi/sprite.png);
+      background-position: 0px -152px;
+      width: 14px;
+      height: 14px;
+      background-repeat: no-repeat; }
+    .rating__item.rating__item-half {
+      background-image: url(../images/png-sprite/96dpi/sprite.png);
+      background-position: -150px -114px;
+      width: 14px;
+      height: 14px;
+      background-repeat: no-repeat; }
+
 .authors__search, .authors__list {
   padding: 20px;
   border: 1px dashed #ccc;
@@ -529,7 +675,6 @@ html, body {
     background-position: -171px -25px;
     width: 16px;
     height: 16px;
-    background-size: 193px, 182px;
     background-repeat: no-repeat; }
 .authors__a-z {
   margin-top: 15px;
@@ -546,7 +691,6 @@ html, body {
     background-position: -171px 0px;
     width: 22px;
     height: 25px;
-    background-size: 193px, 182px;
     background-repeat: no-repeat;
     position: absolute;
     display: block;
@@ -599,7 +743,6 @@ html, body {
       background-position: -89px -137px;
       width: 9px;
       height: 8px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat;
       position: absolute;
       display: block;
@@ -636,7 +779,6 @@ html, body {
       background-position: -171px -103px;
       width: 16px;
       height: 14px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .breadcrumbs__item--category {
       left: 10px;
@@ -647,7 +789,6 @@ html, body {
         background-position: -185px -87px;
         width: 7px;
         height: 7px;
-        background-size: 193px, 182px;
         background-repeat: no-repeat; }
     .breadcrumbs__item--current {
       left: 20px;
@@ -658,55 +799,12 @@ html, body {
         background-position: -185px -87px;
         width: 7px;
         height: 7px;
-        background-size: 193px, 182px;
         background-repeat: no-repeat; }
       .breadcrumbs__item--current:hover {
         text-decoration: none; }
 
 .catalog-list {
   margin-bottom: 40px; }
-
-.DownloadNewestPopular {
-  width: 960px;
-  margin: auto;
-  padding-top: 29px; }
-  .DownloadNewestPopular__block {
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
-    background: #f6f5f4; }
-    .DownloadNewestPopular__block--newest {
-      margin: 0 25px; }
-    .DownloadNewestPopular__block .bookBlockHorizontal {
-      margin: auto; }
-      .DownloadNewestPopular__block .bookBlockHorizontal:first-child {
-        margin-top: 25px; }
-  .DownloadNewestPopular__list {
-    border: 1px dashed #ccc; }
-  .DownloadNewestPopular__more {
-    width: 240px;
-    margin: auto;
-    padding-bottom: 12px; }
-    .DownloadNewestPopular__more a {
-      position: relative;
-      text-decoration: none;
-      color: #333;
-      border-bottom: 1px solid #bcd5a9;
-      font-size: 0.8125em; }
-      .DownloadNewestPopular__more a:after {
-        top: 6px;
-        right: -10px;
-        position: absolute;
-        display: block;
-        content: "";
-        background-image: url(../images/png-sprite/96dpi/sprite.png);
-        background-position: -187px -31px;
-        width: 4px;
-        height: 7px;
-        background-size: 193px, 182px;
-        background-repeat: no-repeat; }
-      .DownloadNewestPopular__more a:hover {
-        border-bottom: 0; }
 
 .footer {
   margin-top: 53px;
@@ -722,7 +820,6 @@ html, body {
     background-position: 0px -44px;
     width: 169px;
     height: 42px;
-    background-size: 193px, 182px;
     background-repeat: no-repeat; }
   .footer__nav {
     width: 360px;
@@ -751,7 +848,6 @@ html, body {
     background-position: 0px -86px;
     width: 131px;
     height: 28px;
-    background-size: 193px, 182px;
     background-repeat: no-repeat; }
 
 .genresListMain {
@@ -782,7 +878,6 @@ html, body {
       background-position: -28px -152px;
       width: 16px;
       height: 12px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .genresListMain__item a {
       text-decoration: none;
@@ -815,7 +910,6 @@ html, body {
       background-position: -187px -25px;
       width: 5px;
       height: 6px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .genresListSidebar__item:hover {
       border-top-color: transparent;
@@ -870,7 +964,6 @@ html, body {
     background-position: 0px 0px;
     width: 171px;
     height: 44px;
-    background-size: 193px, 182px;
     background-repeat: no-repeat; }
   .header__search {
     margin-left: 40px; }
@@ -886,7 +979,6 @@ html, body {
       background-position: -46px -114px;
       width: 32px;
       height: 32px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat;
       position: absolute;
       display: block;
@@ -931,7 +1023,6 @@ html, body {
       background-position: -171px -73px;
       width: 16px;
       height: 14px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .menu__item--novelty:before {
       top: 17px;
@@ -939,7 +1030,6 @@ html, body {
       background-position: -171px -131px;
       width: 16px;
       height: 14px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .menu__item--popular:before {
       top: 15px;
@@ -947,7 +1037,6 @@ html, body {
       background-position: -171px -57px;
       width: 16px;
       height: 16px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .menu__item--authors:before {
       top: 16px;
@@ -955,7 +1044,6 @@ html, body {
       background-position: 0px -166px;
       width: 12px;
       height: 16px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .menu__item--genres:before {
       top: 16px;
@@ -963,7 +1051,6 @@ html, body {
       background-position: -171px -87px;
       width: 14px;
       height: 16px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .menu__item--books-az:before {
       top: 17px;
@@ -971,7 +1058,6 @@ html, body {
       background-position: -171px -117px;
       width: 16px;
       height: 14px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
     .menu__item--audiobooks:before {
       top: 16px;
@@ -979,7 +1065,6 @@ html, body {
       background-position: -171px -41px;
       width: 16px;
       height: 16px;
-      background-size: 193px, 182px;
       background-repeat: no-repeat; }
 
 .now-download {
@@ -996,115 +1081,8 @@ html, body {
   margin-top: 40px;
   vertical-align: top; }
 
-.bookBlockHorizontal {
-  width: 240px;
-  margin-bottom: 12px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #ddd; }
-  .bookBlockHorizontal__img {
-    display: inline-block;
-    width: 39px;
-    height: auto; }
-  .bookBlockHorizontal__content {
-    display: inline-block;
-    width: 186px;
-    margin-top: 1px;
-    margin-left: 10px;
-    vertical-align: top; }
-  .bookBlockHorizontal__link {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    font-size: 0.875em;
-    font-weight: 700;
-    line-height: 1.28571em; }
-    .bookBlockHorizontal__link:hover {
-      text-decoration: underline; }
-  .bookBlockHorizontal__author {
-    display: block;
-    margin-top: 5px;
-    color: #666;
-    font-size: 0.75em; }
-  .bookBlockHorizontal__downloaded {
-    position: relative;
-    display: block;
-    margin-top: 5px;
-    padding-left: 15px;
-    color: #333;
-    font-size: 0.625em; }
-    .bookBlockHorizontal__downloaded:before {
-      top: 3px;
-      left: 0;
-      background-image: url(../images/png-sprite/96dpi/sprite.png);
-      background-position: -78px -137px;
-      width: 11px;
-      height: 9px;
-      background-size: 193px, 182px;
-      background-repeat: no-repeat;
-      position: absolute;
-      display: block;
-      content: ""; }
+.ie8 .header {
+  background: url(../images/general/ie-images/ie8-header.png) repeat-x; }
 
-.bookBlockVertical {
-  display: inline-block;
-  margin-right: -5px;
-  margin-bottom: -1px;
-  padding: 14px 10px 5px 10px;
-  text-align: center;
-  vertical-align: top;
-  border: 1px dashed #ccc;
-  background: #f6f5f4; }
-  .bookBlockVertical--bestsellers {
-    width: 171px; }
-  .bookBlockVertical--catalog-list {
-    width: 157px; }
-  .bookBlockVertical__img {
-    width: 97px;
-    height: auto;
-    margin-bottom: 3px; }
-  .bookBlockVertical__link {
-    display: block;
-    margin-top: 3px;
-    text-decoration: none;
-    color: #333;
-    font-size: 0.9375em;
-    font-weight: 700;
-    line-height: 1.2em; }
-    .bookBlockVertical__link:hover {
-      text-decoration: underline; }
-  .bookBlockVertical__author {
-    padding: 5px 0;
-    color: #666;
-    font-size: 0.75em; }
-  .bookBlockVertical__btn {
-    margin: 5px auto; }
-  .bookBlockVertical__downloaded {
-    color: #b3b2b1;
-    font-size: 0.625em; }
-
-.rating {
-  text-align: center; }
-  .rating__container {
-    width: 100%; }
-  .rating__item {
-    display: inline-block;
-    background-image: url(../images/png-sprite/96dpi/sprite.png);
-    background-position: -14px -152px;
-    width: 14px;
-    height: 14px;
-    background-size: 193px, 182px;
-    background-repeat: no-repeat; }
-    .rating__item.rating__item-full {
-      background-image: url(../images/png-sprite/96dpi/sprite.png);
-      background-position: 0px -152px;
-      width: 14px;
-      height: 14px;
-      background-size: 193px, 182px;
-      background-repeat: no-repeat; }
-    .rating__item.rating__item-half {
-      background-image: url(../images/png-sprite/96dpi/sprite.png);
-      background-position: -150px -114px;
-      width: 14px;
-      height: 14px;
-      background-size: 193px, 182px;
-      background-repeat: no-repeat; }
+.ie8 .menu {
+  background: url(../images/general/ie-images/ie8-menu.png) repeat-x; }

@@ -1,12 +1,12 @@
 .bookBlockVertical {
 	display: inline-block;
-	vertical-align: top;
 
 	margin-right: -5px;
 	margin-bottom: -1px;
 	padding: 14px 10px 5px 10px;
 
 	text-align: center;
+	vertical-align: top;
 
 	border: 1px dashed #ccc;
 	background: #f6f5f4;
@@ -17,6 +17,8 @@
 		width: 157px;
 	}
 	&__img {
+		width: 97px;
+		height: auto;
 		margin-bottom: 3px;
 	}
 	&__link {
