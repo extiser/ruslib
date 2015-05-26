@@ -1,0 +1,9 @@
+mixin similarBooks()
+	section.similar-books
+		.similar-books__title Похожие книги
+		- for(var i = 0; i < 4; i++) {
+		.similar-books__item
+			img(src="%=staticPrefix=%images/content/no-img.jpg", alt="")
+			a(href="#" title="") Старик и море
+			span Хемингуэй Эрнест
+		- }

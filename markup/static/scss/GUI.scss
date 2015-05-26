@@ -1,6 +1,12 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
 
+.social {
+	width: 104px;
+	height: 45px;
+	background: url(../images/general/social.png);
+}
+
 .title {
 	margin-bottom: -1px;
 	padding: 15px 20px 13px 15px;
@@ -31,8 +37,8 @@
 			top: 6px;
 			right: -10px;
 
-			@include bg($icon-arrow-right);
 			@include content;
+			@include bg($icon-arrow-right);
 		}
 		&:hover {
 			border-bottom: 0;
@@ -70,8 +76,8 @@
 		top: 16px;
 		right: 72px;
 
-		@include bg($icon-double-arrow-down);
 		@include content;
+		@include bg($icon-double-arrow-down);
 	}
 }
 
@@ -140,33 +146,95 @@
 	}
 }
 
-.btn-download {
-	display: block;
-	&--small {
-		position: relative;
+.btn-gray {
+	position: relative;
 
+	display: inline-block;
+
+	width: 144px;
+	height: 52px;
+	margin-left: 12px;
+	padding-left: 70px;
+
+	text-align: left;
+	text-decoration: none;
+
+	color: #535353;
+	border: 1px solid #dbd9d8;
+	border-radius: 3px;
+	background: linear-gradient(top, #fefefe 0%, #e0e0e0 100%);
+
+	font-size: em(22px);
+	line-height: 52px;
+	&:hover {
+		background: #dbd9d8;
+	}
+	&:before {
+		@include content;
+	}
+	&--read {
+		&:before {
+			top: 14px;
+			left: 18px;
+
+			@include bg($icon-book-large);
+		}
+	}
+	&--listen {
+		&:before {
+			top: 14px;
+			left: 35px;
+
+			@include bg($icon-headphones);
+		}
+	}
+}
+
+.btn-download {
+	position: relative;
+
+	display: block;
+
+	text-align: left;
+	text-decoration: none;
+
+	color: #fff;
+	border: 1px solid #6f9952;
+	border-radius: 3px;
+	background: linear-gradient(top, #8dbc6d 0%, #569b26 100%);
+	&:before {
+		@include content;
+	}
+	&:hover {
+		background: #569b26;
+	}
+	&--big {
+		display: inline-block;
+
+		width: 149px;
+		height: 52px;
+		padding-left: 65px;
+
+		font-size: em(22px);
+		line-height: 52px;
+		&:before {
+			top: 15px;
+			left: 22px;
+
+			@include bg($icon-btn-download-big);
+		}
+	}
+	&--small {
 		width: 77px; // -padding-left for IE
 		height: 25px;
 		padding-left: 33px;
 
-		text-align: left;
-		text-decoration: none;
-
-		color: #fff;
-		border: 1px solid #6f9952;
-		border-radius: 3px;
-		background: linear-gradient(top, #8dbc6d 0%, #569b26 100%);
-
 		font-size: em(12px);
 		line-height: 25px;
-		&:hover {
-			background: #569b26;
-		}
 		&:before {
 			top: 5px;
 			left: 10px;
 
-			@include content;
 			@include bg($icon-btn-download-small);
 		}
 	}
@@ -176,8 +244,11 @@
 .authors-a-z {
 	a {
 		display: inline-block;
+
 		margin-right: 7px;
+
 		color: #ef8230;
+
 		font-size: em(22px);
 	}
 }

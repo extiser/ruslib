@@ -1,0 +1,30 @@
+mixin singleBook(data)
+	section.single-book
+		.single-book__left
+			.single-book__author Хемингуэй Эрнест
+			.single-book__book-name Лиссабон: девять кругов ада
+			p.single-book__text Повесть Э.Хемингуэя «Старик и море», за которую автор получил в 1954 году Нобелевскую премию, уже давно стала современной классикой. История рыбака Сантьяго — это история нелегкого пути человека на земле, каждый день ведущего борьбу за жизнь и вместе с тем стремящегося сосуществовать в гармонии и согласии с миром, осознающего себя не одиночкой
+			a(href="#" title="").btn-download.btn-download--big Скачать
+			- if (data == 'read')
+				a(href="#" title="").btn-gray.btn-gray--read Читать
+			- else
+				a(href="#" title="").btn-gray.btn-gray--listen Слушать
+
+			.single-book__meta
+				.single-book__meta__item Жанр:
+					strong Классическая проза
+				.single-book__meta__item Скачано:
+					strong 10562 раз
+				.single-book__meta__item Рейтинг:
+					+_ratingBig()
+				- if (data == 'read')
+					.single-book__meta__item Прочитано:
+						strong 1564 раз
+				- else
+					.single-book__meta__item Прослушано:
+						strong 1564 раз
+		.single-book__right
+			img(src="%=staticPrefix=%images/content/no-img.jpg" alt="")
+			.social
+
+	+similarBooks()

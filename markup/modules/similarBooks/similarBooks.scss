@@ -1,0 +1,51 @@
+.similar-books {
+	margin-top: 30px;
+	&__title {
+		margin-bottom: 15px;
+
+		text-transform: uppercase;
+
+		color: #333;
+
+		font-size: em(16px);
+	}
+	&__item {
+		display: inline-block;
+
+		width: 178px;
+		margin-left: -5px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+
+		text-align: center;
+		vertical-align: top;
+
+		border: 1px dashed #ccc;
+		background: #f6f5f4;
+		img {
+			display: block;
+
+			margin: 0 auto 15px;
+		}
+		a {
+			text-decoration: none;
+
+			color: #333;
+
+			font-size: em(18px);
+			font-weight: 700;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		span {
+			display: block;
+
+			margin: auto;
+
+			color: #666;
+
+			font-size: em(12px);
+		}
+	}
+}

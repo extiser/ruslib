@@ -1,0 +1,40 @@
+doctype html
+|<!--[if IE 7]><html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+|<!--[if IE 8]><html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+|<!--[if IE 9 ]><html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+|<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" lang="ru"><!--<![endif]-->
+
+include ../modules/head/head
+include ../modules/footer/footer
+include ../modules/header/header
+include ../modules/menu/menu
+include ../modules/bestsellers/bestsellers
+include ../modules/genresList/genresListMain
+include ../modules/genresList/genresListSidebar
+include ../modules/DownloadNewestPopular/DownloadNewestPopular
+include ../modules/catalogList/catalogList
+include ../modules/breadcrumbs/breadcrumbs
+include ../modules/booksFormat/booksFormat
+include ../modules/nowDownload/nowDownload
+include ../modules/sidebar/sidebar
+include ../modules/singleBook/singleBook
+include ../modules/similarBooks/similarBooks
+
+//- GUI modules
+include ../modules/_rating/_ratingBig
+
+//- blocks modules
+include ../modules/_bookBlockVertical/_bookBlockVertical
+include ../modules/_bookBlockHorizontal/_bookBlockHorizontal
+
+head
+	+head(head.defaults)
+body
+	.page
+		+header()
+		+menu()
+		main.main
+			+breadcrumbs()
+			+singleBook('listen')
+		+sidebar()
+		+footer()
