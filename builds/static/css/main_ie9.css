@@ -337,6 +337,11 @@ td, th {
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+.social {
+  width: 104px;
+  height: 45px;
+  background: url(../images/general/social.png); }
+
 .title {
   margin-bottom: -1px;
   padding: 15px 20px 13px 15px;
@@ -359,15 +364,15 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
     .title__more:after {
       top: 6px;
       right: -10px;
+      position: absolute;
+      display: block;
+      content: "";
       background-image: url(../images/png-sprite/96dpi/sprite.png);
       background-position: -187px -31px;
       width: 4px;
       height: 7px;
       background-size: 193px, 182px;
-      background-repeat: no-repeat;
-      position: absolute;
-      display: block;
-      content: ""; }
+      background-repeat: no-repeat; }
     .title__more:hover {
       border-bottom: 0; }
 
@@ -395,15 +400,15 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   .show-more:before, .form__submit--search-authors:before {
     top: 16px;
     right: 72px;
+    position: absolute;
+    display: block;
+    content: "";
     background-image: url(../images/png-sprite/96dpi/sprite.png);
     background-position: -57px -152px;
     width: 10px;
     height: 11px;
     background-size: 193px, 182px;
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    content: ""; }
+    background-repeat: no-repeat; }
 
 .form__element {
   padding: 9px 15px;
@@ -445,30 +450,88 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   .ie8 .form__element:focus {
     color: #333; }
 
+.btn-gray {
+  position: relative;
+  display: inline-block;
+  width: 144px;
+  height: 52px;
+  margin-left: 12px;
+  padding-left: 70px;
+  text-align: left;
+  text-decoration: none;
+  color: #535353;
+  border: 1px solid #dbd9d8;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(top, #fefefe 0%, #e0e0e0 100%);
+  background: linear-gradient(top, #fefefe 0%, #e0e0e0 100%);
+  font-size: 1.375em;
+  line-height: 52px; }
+  .btn-gray:hover {
+    background: #dbd9d8; }
+  .btn-gray:before {
+    position: absolute;
+    display: block;
+    content: ""; }
+  .btn-gray--read:before {
+    top: 14px;
+    left: 18px;
+    background-image: url(../images/png-sprite/96dpi/sprite.png);
+    background-position: -131px -86px;
+    width: 32px;
+    height: 22px;
+    background-size: 193px, 182px;
+    background-repeat: no-repeat; }
+  .btn-gray--listen:before {
+    top: 14px;
+    left: 35px;
+    background-image: url(../images/png-sprite/96dpi/sprite.png);
+    background-position: -102px -114px;
+    width: 24px;
+    height: 22px;
+    background-size: 193px, 182px;
+    background-repeat: no-repeat; }
+
 .btn-download {
-  display: block; }
+  position: relative;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #6f9952;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(top, #8dbc6d 0%, #569b26 100%);
+  background: linear-gradient(top, #8dbc6d 0%, #569b26 100%); }
+  .btn-download:before {
+    position: absolute;
+    display: block;
+    content: ""; }
+  .btn-download:hover {
+    background: #569b26; }
+  .btn-download--big {
+    display: inline-block;
+    width: 149px;
+    height: 52px;
+    padding-left: 65px;
+    font-size: 1.375em;
+    line-height: 52px; }
+    .btn-download--big:before {
+      top: 15px;
+      left: 22px;
+      background-image: url(../images/png-sprite/96dpi/sprite.png);
+      background-position: -78px -114px;
+      width: 24px;
+      height: 23px;
+      background-size: 193px, 182px;
+      background-repeat: no-repeat; }
   .btn-download--small {
-    position: relative;
     width: 77px;
     height: 25px;
     padding-left: 33px;
-    text-align: left;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #6f9952;
-    border-radius: 3px;
-    background: -webkit-linear-gradient(top, #8dbc6d 0%, #569b26 100%);
-    background: linear-gradient(top, #8dbc6d 0%, #569b26 100%);
     font-size: 0.75em;
     line-height: 25px; }
-    .btn-download--small:hover {
-      background: #569b26; }
     .btn-download--small:before {
       top: 5px;
       left: 10px;
-      position: absolute;
-      display: block;
-      content: "";
       background-image: url(../images/png-sprite/96dpi/sprite.png);
       background-position: -12px -166px;
       width: 13px;
@@ -995,6 +1058,82 @@ html, body {
   width: 226px;
   margin-top: 40px;
   vertical-align: top; }
+
+.similar-books {
+  margin-top: 30px; }
+  .similar-books__title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1em; }
+  .similar-books__item {
+    display: inline-block;
+    width: 178px;
+    margin-left: -5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px dashed #ccc;
+    background: #f6f5f4; }
+    .similar-books__item img {
+      display: block;
+      margin: 0 auto 15px; }
+    .similar-books__item a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.125em;
+      font-weight: 700; }
+      .similar-books__item a:hover {
+        text-decoration: underline; }
+    .similar-books__item span {
+      display: block;
+      margin: auto;
+      color: #666;
+      font-size: 0.75em; }
+
+.single-book {
+  padding: 44px 50px 20px;
+  background: #fff;
+  box-shadow: 0 0 5px #d6d6d6; }
+  .single-book__left, .single-book__right {
+    display: inline-block;
+    vertical-align: bottom; }
+  .single-book__left {
+    width: 460px; }
+  .single-book__right {
+    margin-left: 40px;
+    text-align: center; }
+    .single-book__right .social {
+      margin-top: 70px;
+      margin-bottom: 10px; }
+  .single-book__author {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 1em;
+    font-weight: 700; }
+  .single-book__book-name {
+    color: #000;
+    font-size: 1.875em;
+    font-weight: 700; }
+  .single-book__text {
+    margin: 15px 0;
+    color: #333;
+    font-size: 0.875em;
+    line-height: 1.5em; }
+  .single-book__meta {
+    margin-top: 25px; }
+    .single-book__meta__item {
+      position: relative;
+      display: inline-block;
+      width: 224px;
+      margin-bottom: 10px;
+      vertical-align: top;
+      font-size: 0.8125em; }
+      .single-book__meta__item .rating {
+        position: absolute;
+        top: 0;
+        left: 60px; }
 
 .bookBlockHorizontal {
   width: 240px;
