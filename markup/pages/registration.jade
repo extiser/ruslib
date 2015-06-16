@@ -10,16 +10,9 @@ include ../modules/header/header
 include ../modules/menu/menu
 include ../modules/bestsellers/bestsellers
 include ../modules/genresList/genresListMain
-include ../modules/genresList/genresListSidebar
 include ../modules/DownloadNewestPopular/DownloadNewestPopular
-include ../modules/catalogList/catalogList
 include ../modules/breadcrumbs/breadcrumbs
-include ../modules/booksFormat/booksFormat
-include ../modules/nowDownload/nowDownload
-include ../modules/sidebar/sidebar
-include ../modules/singleBook/singleBook
-include ../modules/similarBooks/similarBooks
-include ../modules/vk-comments/vk-comments
+include ../modules/registration/registration
 
 //- GUI modules
 include ../modules/_rating/_ratingBig
@@ -34,8 +27,7 @@ body
 	.page
 		+header()
 		+menu()
-		main.main
+		.wrapper
 			+breadcrumbs()
-			+singleBook('read')
-		+sidebar()
+			+registration()
 		+footer()

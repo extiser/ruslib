@@ -1,0 +1,27 @@
+mixin vk-comments()
+	section.vk-comments
+		.vk-comments__title 113 450 комментариев
+		.vk-comments__form
+			.vk-comments__form__avatar
+				img(src="%=staticPrefix=%images/content/vk-comments-avatar.jpg" alt="")
+			.vk-comments__form__textarea
+				textarea(placeholder="Ваш комментарий")
+				input(type="submit" value="Отправить")
+		.vk-comments__user
+			.vk-comments__user__avatar
+				img(src="%=staticPrefix=%images/content/vk-comments-avatar.jpg" alt="")
+			.vk-comments__user__body
+				.vk-comments__user__name Сергей Бобин
+				.vk-comments__user__text Повесть Э.Хемингуэя «Старик и море», за которую автор получил в 1954 году Нобелевскую премию, уже давно стала современной классикой.
+				.vk-comments__user__meta
+					span.vk-comments__user__meta__time три минуты назад
+					a(href="#" title="").vk-comments__user__meta__answer Комментировать
+		.vk-comments__user
+			.vk-comments__user__avatar
+				img(src="%=staticPrefix=%images/content/vk-comments-avatar.jpg" alt="")
+			.vk-comments__user__body
+				.vk-comments__user__name Марина Кравец
+				.vk-comments__user__text Повесть Э.Хемингуэя «Старик и море».
+				.vk-comments__user__meta
+					span.vk-comments__user__meta__time три минуты назад
+					a(href="#" title="").vk-comments__user__meta__answer Комментировать
