@@ -1,0 +1,17 @@
+mixin modal()
+	.modal#modal-registration
+		.modal__img
+		.modal__content
+			.modal__header Регистрация
+			.modal__proof Докажите, что вы РЕАЛЬНЫЙ человек, а не поисковый робот
+
+			form(action="" method="").form
+				label.form__label Введите Ваш номер телефона ниже:
+				input(type="tel" value="").form__element
+				span.form__primer Например +7989965465
+
+				input(type="submit" value="Продолжить").btn-download.registration__submit
+
+				span.form__primer Если у вас уже есть код, нажмите 
+					a(href="#" title="") здесь
+	.modal-overlay

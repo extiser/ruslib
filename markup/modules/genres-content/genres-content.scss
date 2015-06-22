@@ -1,0 +1,47 @@
+.genres-content {
+	
+}
+
+.genres-content-list {
+	background: #f6f5f4;
+	border: 1px dashed #ccc;
+	list-style: none;
+	padding: 25px;
+
+	&__item {
+		display: block;
+		position: relative;
+		padding-left: 35px;
+		margin-bottom: 10px;
+		&:before {
+			@include content;
+			@include bg($icon-book-big);
+			left: 0;
+			top: 1px;
+		}
+		a {
+			font-size: em(14px);
+			color: #333;
+			font-weight: 700;
+			border-bottom: 1px solid #bcd5a9;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+				border-bottom: none;
+			}
+		}
+
+		&--inside {
+			padding-left: 25px;
+			margin-left: 35px;
+			&:before {
+				top: 2px;
+				@include bg($icon-book-small);
+			}
+			a {
+				font-weight: normal;
+			}
+		}
+	}
+}

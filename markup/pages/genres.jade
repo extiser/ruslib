@@ -10,7 +10,14 @@ include ../modules/header/header
 include ../modules/menu/menu
 include ../modules/bestsellers/bestsellers
 include ../modules/genresList/genresListMain
+include ../modules/genresList/genresListSidebar
 include ../modules/DownloadNewestPopular/DownloadNewestPopular
+include ../modules/catalogList/catalogList
+include ../modules/breadcrumbs/breadcrumbs
+include ../modules/booksFormat/booksFormat
+include ../modules/nowDownload/nowDownload
+include ../modules/sidebar/sidebar
+include ../modules/genres-content/genres-content
 include ../modules/modal/modal
 
 //- GUI modules
@@ -26,7 +33,8 @@ body
 	.page
 		+header()
 		+menu()
-		+bestsellers()
-		+genresListMain(genres)
-		+DownloadNewestPopular()
+		main.main
+			+breadcrumbs()
+			+genres-content()
+		+sidebar()
 		+footer()

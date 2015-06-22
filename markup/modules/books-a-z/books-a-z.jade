@@ -1,0 +1,50 @@
+mixin books-a-z()
+	section.books-a-z
+		h1.title.books-a-z__title Авторы
+		.books-a-z__search
+			.authors-a-z.books-a-z__a-z
+				a(href="#" title="") А
+				a(href="#" title="") Б
+				a(href="#" title="") В
+				a(href="#" title="") Г
+				a(href="#" title="") Д
+				a(href="#" title="") Е
+				a(href="#" title="") Ж
+				a(href="#" title="") З
+				a(href="#" title="") И
+				a(href="#" title="") Й
+				a(href="#" title="") К
+				a(href="#" title="") Л
+				a(href="#" title="") М
+				a(href="#" title="") Н
+				a(href="#" title="") О
+				a(href="#" title="") П
+				a(href="#" title="") Р
+				a(href="#" title="") С
+				a(href="#" title="") Т
+				a(href="#" title="") У
+				a(href="#" title="") Ф
+				a(href="#" title="") Х
+				a(href="#" title="") Ц
+				a(href="#" title="") Ч
+				a(href="#" title="") Ш
+				a(href="#" title="") Щ
+				a(href="#" title="") Э
+				a(href="#" title="") Ю
+				a(href="#" title="") Я
+		.books-a-z__list
+			- for (var i = 0; i < 10; i++) {
+			.books-a-z-item
+				.books-a-z-item__img
+					img(src="%=staticPrefix=%images/content/_bookBlockHorizontal.jpg" alt="")
+
+					.books-a-z-item__name-author
+						a(href="#" title="").bookBlockHorizontal__link Гибкий график катастроф
+						span.bookBlockHorizontal__author Хемингуэй Эрнест
+
+				.books-a-z-item__downloaded
+					span.bookBlockHorizontal__downloaded 10562 раз
+
+				a(href="#" title="").btn-download.btn-download--small.books-a-z-item__btn Скачать
+			- }
+		a(href="#" title="").show-more Показать еще
