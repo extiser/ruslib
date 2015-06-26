@@ -4,8 +4,60 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
 				"te",
-				"text-align"
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"form",
+				"form__primer"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"gen",
+				"genres-content-list__item"
+			],
+			[
+				"genre",
+				"genres-content-list"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"book",
+				"books-a-z-item"
+			],
+			[
+				"boo",
+				"books-a-z-item"
+			],
+			[
+				"backg",
+				"background-image"
 			],
 			[
 				"reg",
@@ -14,18 +66,6 @@
 			[
 				"ma",
 				"margin-top"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"magi",
@@ -50,18 +90,6 @@
 			[
 				"back",
 				"background"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"marign",
-				"margin-top"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"font-",
@@ -96,16 +124,8 @@
 				"form"
 			],
 			[
-				"form",
-				"form__element"
-			],
-			[
 				"lis",
 				"list-style"
-			],
-			[
-				"gen",
-				"genresListSidebar"
 			],
 			[
 				"text",
@@ -384,10 +404,6 @@
 				"service-wedding-cake"
 			],
 			[
-				"border-bot",
-				"border-bottom-color"
-			],
-			[
 				"sc",
 				"scrollTop	.scrollTop()"
 			],
@@ -498,22 +514,6 @@
 			[
 				"ba",
 				"background"
-			],
-			[
-				"tari",
-				"tarif__item"
-			],
-			[
-				"border-bt",
-				"border-bottom-color"
-			],
-			[
-				"ta",
-				"tarif"
-			],
-			[
-				"tar",
-				"tarifController"
 			]
 		]
 	},
@@ -593,6 +593,7 @@
 	[
 		"/Users/extiser/git/ruslib/markup",
 		"/Users/extiser/git/ruslib/markup/modules",
+		"/Users/extiser/git/ruslib/markup/modules/modal",
 		"/Users/extiser/git/ruslib/markup/modules/registration",
 		"/Users/extiser/git/ruslib/markup/pages",
 		"/Users/extiser/git/ruslib/markup/static",
@@ -600,8 +601,31 @@
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/ruslib/markup/static/scss/common.scss",
+		"/Users/extiser/git/ruslib/markup/modules/modal/modal.js",
+		"/Users/extiser/git/ruslib/markup/modules/header/header.jade",
+		"/Users/extiser/git/ruslib/markup/modules/modal/modal.jade",
+		"/Users/extiser/git/ruslib/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/ruslib/markup/modules/modal/modal.scss",
+		"/Users/extiser/git/ruslib/markup/pages/single-read.jade",
+		"/Users/extiser/git/ruslib/markup/pages/single-listen.jade",
 		"/Users/extiser/git/ruslib/markup/pages/registration.jade",
+		"/Users/extiser/git/ruslib/markup/pages/genres.jade",
+		"/Users/extiser/git/ruslib/markup/pages/catalog.jade",
+		"/Users/extiser/git/ruslib/markup/pages/book-a-z.jade",
+		"/Users/extiser/git/ruslib/markup/pages/authors.jade",
+		"/Users/extiser/git/ruslib/markup/pages/index.jade",
+		"/Users/extiser/git/ruslib/markup/modules/genres-content/genres-content.scss",
+		"/Users/extiser/git/ruslib/markup/modules/genres-content/genres-content.jade",
+		"/Users/extiser/git/ruslib/markup/modules/books-a-z/books-a-z.jade",
+		"/Users/extiser/git/ruslib/markup/modules/books-a-z/books-a-z.scss",
+		"/Users/extiser/git/ruslib/markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
+		"/Users/extiser/git/ruslib/markup/modules/DownloadNewestPopular/DownloadNewestPopular.scss",
+		"/Users/extiser/git/ruslib/markup/modules/authors/authors.jade",
+		"/Users/extiser/git/ruslib/markup/modules/search-inside/search-inside.scss",
+		"/Users/extiser/git/ruslib/markup/modules/menu/menu.jade",
+		"/Users/extiser/git/ruslib/markup/modules/search-inside/search-inside.jade",
+		"/Users/extiser/git/ruslib/markup/modules/authors/authors.scss",
+		"/Users/extiser/git/ruslib/markup/static/scss/common.scss",
 		"/Users/extiser/git/ruslib/markup/modules/registration/registration.jade",
 		"/Users/extiser/git/ruslib/markup/modules/registration/registration.scss",
 		"/Users/extiser/git/ruslib/markup/static/scss/GUI.scss",
@@ -609,8 +633,6 @@
 		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.jade",
 		"/Users/extiser/git/ruslib/markup/modules/similarBooks/similarBooks.scss",
 		"/Users/extiser/git/ruslib/markup/modules/singleBook/singleBook.jade",
-		"/Users/extiser/git/ruslib/markup/pages/single-read.jade",
-		"/Users/extiser/git/ruslib/markup/pages/single-listen.jade",
 		"/Users/extiser/git/ruslib/markup/modules/singleBook/singleBook.scss",
 		"/Users/extiser/git/ruslib/markup/modules/similarBooks/similarBooks.jade",
 		"/E/Git/ruslib/markup/static/scss/GUI.scss",
@@ -706,28 +728,7 @@
 		"/E/Git/bur/markup/modules/clients/clients.js",
 		"/E/Git/bur/markup/modules/clients/ie",
 		"/E/Git/bur/markup/modules/clients/ie/ie8",
-		"/E/Git/bur/markup/pages/index.jade",
-		"/E/Git/bur/markup/modules/footer/footer.scss",
-		"/E/Git/bur/markup/modules/contacts/contacts.scss",
-		"/E/Git/bur/markup/static/scss/GUI.scss",
-		"/E/Git/bur/markup/modules/header/header.js",
-		"/E/Git/bur/markup/modules/header/header.jade",
-		"/E/Git/bur/markup/modules/partner/partner.scss",
-		"/E/Git/bur/markup/modules/partner/ie/ie8.scss",
-		"/E/Git/bur/markup/modules/header/ie/ie8.scss",
-		"/E/Git/bur/markup/modules/address/address.scss",
-		"/E/Git/bur/markup/modules/advantages/ie/ie8.scss",
-		"/E/Git/bur/markup/modules/advantages/advantages.jade",
-		"/E/Git/bur/markup/modules/partner/partner.jade",
-		"/E/Git/cluev-soulmates/markup/modules/index/script.js",
-		"/E/Git/bur/tars/tasks/images/minify-raster-img.js",
-		"/E/Git/bur/markup/static/scss/fonts.scss",
-		"/E/Git/wspeaks/markup/modules/similar-article/similar-article.jade",
-		"/E/Git/bur/markup/static/scss/vars.scss",
-		"/E/Git/wspeaks/markup/static/scss/mixins.scss",
-		"/E/Git/shtukaturkapro/dev/sass/partials/header.scss",
-		"/E/Git/bur/markup/static/scss/normalize.scss",
-		"/E/Git/bur/dev/static/js/main.js"
+		"/E/Git/bur/markup/pages/index.jade"
 	],
 	"find":
 	{
