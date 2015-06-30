@@ -519,6 +519,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "tars-config.js",
+			"settings":
+			{
+				"buffer_size": 6870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/static/scss/GUI.scss",
+			"settings":
+			{
+				"buffer_size": 3912,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/modules/menu/menu.scss",
+			"settings":
+			{
+				"buffer_size": 1142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
+			"settings":
+			{
+				"buffer_size": 740,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,7 +625,9 @@
 	[
 		"/Users/extiser/git/ruslib/markup",
 		"/Users/extiser/git/ruslib/markup/modules",
-		"/Users/extiser/git/ruslib/markup/modules/modal",
+		"/Users/extiser/git/ruslib/markup/modules/_bookBlockHorizontal",
+		"/Users/extiser/git/ruslib/markup/modules/_bookBlockVertical",
+		"/Users/extiser/git/ruslib/markup/modules/menu",
 		"/Users/extiser/git/ruslib/markup/modules/registration",
 		"/Users/extiser/git/ruslib/markup/pages",
 		"/Users/extiser/git/ruslib/markup/static",
@@ -601,6 +635,7 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/ruslib/markup/modules/header/header.scss",
 		"/Users/extiser/git/ruslib/markup/modules/modal/modal.js",
 		"/Users/extiser/git/ruslib/markup/modules/header/header.jade",
 		"/Users/extiser/git/ruslib/markup/modules/modal/modal.jade",
@@ -727,8 +762,7 @@
 		"/E/Git/bur/markup/modules/clients/ie/ie8.scss",
 		"/E/Git/bur/markup/modules/clients/clients.js",
 		"/E/Git/bur/markup/modules/clients/ie",
-		"/E/Git/bur/markup/modules/clients/ie/ie8",
-		"/E/Git/bur/markup/pages/index.jade"
+		"/E/Git/bur/markup/modules/clients/ie/ie8"
 	],
 	"find":
 	{
@@ -1006,8 +1040,134 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "tars-config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2999,
+								2999
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/modules/menu/menu.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

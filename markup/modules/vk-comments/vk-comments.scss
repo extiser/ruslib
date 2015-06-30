@@ -4,16 +4,19 @@
 
 	background-color: #fff;
 
-	font-family: Arial;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
 	&__title {
 		position: relative;
 
-		padding: 7px 10px;
+		padding: 7px 10px 8px;
 
 		color: #fff;
 		background-color: #5b7fa6;
 
-		font-size: em(13px);
+		font-size: em(12px);
+		font-weight: 700;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
 		&:after {
 			top: 6px;
 			right: 6px;
@@ -23,7 +26,7 @@
 		}
 	}
 	&__form {
-		padding: 7px;
+		padding: 10px;
 
 		background-color: #f7f7f7;
 		&__avatar {
@@ -41,16 +44,20 @@
 
 			vertical-align: top;;
 			textarea {
+				color: #8C8E91;
 				width: 99%;
 				min-height: 50px;
 				padding: 7px;
 
 				border: 1px solid #c0cad5;
 
-				font-size: em(14px);
+				font-size: em(12px);
+				&:focus {
+					outline: none;
+				}
 			}
 			input[type="submit"] {
-				width: 96px;
+				width: 90px;
 				height: 27px;
 				margin-top: 5px;
 
@@ -58,12 +65,15 @@
 				border: 0;
 				background: linear-gradient(to bottom, #6d8fb3, #507296);
 
-				font-size: em(13px);
+				font-size: em(12px);
+				line-height: 27px;
+				border-radius: 2px;
 			}
 		}
 	}
 	&__user {
-		padding: 10px 8px;
+		padding: 15px 12px;
+		border-bottom: 1px solid #DAE1E8;
 		&__avatar {
 			display: inline-block;
 
@@ -79,33 +89,33 @@
 			vertical-align: top;
 		}
 		&__name {
-			padding-top: 3px;
-			padding-bottom: 7px;
+			padding-top: 1px;
+			padding-bottom: 3px;
 
-			color: #507296;
+			color: #2B587A;
 
-			font-size: em(14px);
+			font-size: em(12px);
 			font-weight: 700;
 		}
 		&__text {
-			padding-bottom: 7px;
+			padding-bottom: 0px;
 
 			color: #333;
 
-			font-size: em(14px);
-			line-height: em(18px, 14px);
+			font-size: em(12px);
+			line-height: 160%;
 		}
 		&__meta {
 			&__time {
 				color: #999;
 
-				font-size: em(14px);
+				font-size: em(12px);
 				&:after {
 					padding: 0 5px;
 
 					content: "|";
 
-					font-size: em(14px);
+					font-size: em(12px);
 				}
 			}
 			&__answer {
@@ -113,7 +123,10 @@
 
 				color: #507296;
 
-				font-size: em(14px);
+				font-size: em(12px);
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 	}
