@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
@@ -14,14 +26,6 @@
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"te",
-				"text-transform"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"pad",
@@ -336,10 +340,6 @@
 				"border-color"
 			],
 			[
-				"ou",
-				"outline-color"
-			],
-			[
 				"th",
 				"thumbnail"
 			],
@@ -544,10 +544,10 @@
 			}
 		},
 		{
-			"file": "markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
+			"file": "markup/modules/vk-comments/vk-comments.scss",
 			"settings":
 			{
-				"buffer_size": 740,
+				"buffer_size": 1953,
 				"line_ending": "Unix"
 			}
 		}
@@ -629,7 +629,7 @@
 		"/Users/extiser/git/ruslib/markup/modules/_bookBlockVertical",
 		"/Users/extiser/git/ruslib/markup/modules/menu",
 		"/Users/extiser/git/ruslib/markup/modules/registration",
-		"/Users/extiser/git/ruslib/markup/pages",
+		"/Users/extiser/git/ruslib/markup/modules/vk-comments",
 		"/Users/extiser/git/ruslib/markup/static",
 		"/Users/extiser/git/ruslib/markup/static/scss"
 	],
@@ -1099,7 +1099,7 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1139,19 +1139,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
-					"semi_transient": true,
+					"file": "markup/modules/vk-comments/vk-comments.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 740,
+						"buffer_size": 1953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1932,
+								1932
 							]
 						],
 						"settings":
@@ -1162,7 +1162,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1289.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
